@@ -1,0 +1,11 @@
+<h1>Filmes</h1>
+
+{{#if filmes.length}}
+  <ul>
+    {{#each filmes}}
+      <li>{{titulo}} ({{ano}})</li>
+    {{/each}}
+  </ul>
+{{else}}
+  <p>Nenhum filme cadastrado.</p>
+{{/if}}
